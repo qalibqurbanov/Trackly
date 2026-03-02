@@ -1,5 +1,7 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Trackly.UI.Helpers.Forms;
 
@@ -35,5 +37,13 @@ public class FormStylingUtils
 
         listView.BackColor = Color.White;
         listView.ForeColor = Color.Black;
+    }
+
+    [DllImport("user32.dll", CharSet = System.Runtime.InteropServices.CharSet.Unicode)]
+    private static extern IntPtr SendMessage(IntPtr hWnd, int msg, IntPtr wParam, string lParam);
+    public static void ConfigurePlaceholderForTextbox(TextBox textBox, string placeholderText)
+    {
+        const int EM_SETCUEBANNER = 0x1501;
+        SendMessage(textBox.Handle, EM_SETCUEBANNER, IntPtr.Zero, placeholderText);
     }
 }

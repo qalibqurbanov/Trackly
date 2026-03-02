@@ -139,13 +139,13 @@ namespace Trackly.UI.Forms
             control_reddit_manage_menuFor_listview_subreddits.ImageScalingSize = new Size(24, 24);
             control_reddit_manage_menuFor_listview_subreddits.Items.AddRange(new ToolStripItem[] { toolStripMenuItem_Remove });
             control_reddit_manage_menuFor_listview_subreddits.Name = "control_reddit_manage_menuFor_listview__subreddits";
-            control_reddit_manage_menuFor_listview_subreddits.Size = new Size(241, 69);
+            control_reddit_manage_menuFor_listview_subreddits.Size = new Size(149, 36);
             control_reddit_manage_menuFor_listview_subreddits.Click += control_reddit_manage_menuFor_listview_subreddits_Remove_Click;
             // 
             // toolStripMenuItem_Remove
             // 
             toolStripMenuItem_Remove.Name = "toolStripMenuItem_Remove";
-            toolStripMenuItem_Remove.Size = new Size(240, 32);
+            toolStripMenuItem_Remove.Size = new Size(148, 32);
             toolStripMenuItem_Remove.Text = "Remove";
             // 
             // control_reddit_manage_textbox_url
@@ -208,6 +208,7 @@ namespace Trackly.UI.Forms
             // 
             // control_reddit_feed_combobox_subredditList
             // 
+            control_reddit_feed_combobox_subredditList.DropDownStyle = ComboBoxStyle.DropDownList;
             control_reddit_feed_combobox_subredditList.FormattingEnabled = true;
             control_reddit_feed_combobox_subredditList.Location = new Point(6, 6);
             control_reddit_feed_combobox_subredditList.Name = "control_reddit_feed_combobox_subredditList";
@@ -240,7 +241,7 @@ namespace Trackly.UI.Forms
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "MainForm";
-            Text = "MainForm";
+            Text = "Trackly";
             Load += MainForm_LoadAsync;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
