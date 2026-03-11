@@ -76,6 +76,7 @@
 - [ ] 🏷️ Auto-tagging — automatically categorize posts into topics like "News", "Discussion", "Tutorial", "Meme"
 - [ ] 📊 Personal interest profiling — learn what topics you engage with most and rank feed accordingly
 - [ ] 😊 Sentiment analysis — tag posts as positive, negative, or neutral so you can filter by mood
+- [ ] 🔄 Check for app updates — notify when a new version of Trackly is available
 - [ ] 🧽 One-click wipe — delete all data and reset the app completely
 
 ### 🌍 Platform Expansion
