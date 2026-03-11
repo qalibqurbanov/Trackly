@@ -58,6 +58,25 @@
 - [ ] ☁️ Optional cloud sync — backup and sync your sources and settings across multiple devices
 - [ ] ⌨️ Keyboard shortcut configuration
 - [ ] 🖥️ Command line support — run checks headlessly via CLI for automation
+- [ ] 🔄 Incremental sync — only fetch posts newer than the last check instead of re-fetching everything
+- [ ] 🔀 Concurrent checking — check multiple sources at the same time instead of one by one to speed things up
+- [ ] 🚦 Rate limiting handler — gracefully handle API rate limits with automatic retry and backoff
+- [ ] 💥 Crash recovery — if the app crashes mid-check, resume from where it left off on next launch
+- [ ] 🔥 Trending posts — highlight posts getting unusually high engagement compared to the source's average
+- [ ] 📉 Dead source detection — warn you if a subreddit hasn't posted anything in a long time
+- [ ] 🖼️ Thumbnail preview — show image thumbnails for posts that contain images
+- [ ] 🕵️ Proxy support — route requests through a proxy for privacy
+- [ ] 📄 Post summarization — summarize long posts in 2-3 sentences without opening them
+- [ ] 🌍 Auto-translate posts — detect non-English posts and translate them inline
+- [ ] 🔔 Smart notifications — only notify you about posts that match your interest profile, not everything
+- [ ] 🔎 Semantic search — search by meaning not just exact keywords (e.g. searching "crash fix" also finds "bug resolved")
+- [ ] ✍️ Draft reply assistant — help you write a response to a post using AI before opening it in the browser
+- [ ] 📋 AI digest generation — every morning generate a human-readable summary of everything new since yesterday
+- [ ] 🤖 Ask AI about a post — select any post and ask Claude questions about it without leaving the app
+- [ ] 🏷️ Auto-tagging — automatically categorize posts into topics like "News", "Discussion", "Tutorial", "Meme"
+- [ ] 📊 Personal interest profiling — learn what topics you engage with most and rank feed accordingly
+- [ ] 😊 Sentiment analysis — tag posts as positive, negative, or neutral so you can filter by mood
+- [ ] 🧽 One-click wipe — delete all data and reset the app completely
 
 ### 🌍 Platform Expansion
 - [ ] 📘 Facebook Groups support
